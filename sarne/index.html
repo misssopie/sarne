@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davao Educational Tour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/hcdc.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#pldt">About</a>
+            <a href="#learnings">Learnings</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Davao Educational Tour</h1>
+            <p class="hero-quote">
+                "This website captured some of the most unforgettable moments of my life that filled with experiences.<br>
+                Every company offered new lessons and insights,<br>
+                turning into a meaningful opportunity for growth."
+            </p>
+            <div class="button-container">
+                <a href="#pldt" class="nav-button">PLDT</a>
+                <a href="#vitro" class="nav-button">VITRO</a>
+                <a href="#jairosoft" class="nav-button">JAIROSOFT</a>
+                <a href="#911" class="nav-button">911</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLDT -->
+    <section id="pldt" class="content-section">
+        <div class="section-header"><h2>PLDT</h2></div>
+        <div class="content-wrapper">
+            <div class="text-content">
+                <p>PLDT, Inc., formerly known as the Philippine Long Distance Telephone Company, is the largest telecommunications and digital services provider in the Philippines and plays an important role in improving digital connectivity in Davao City. 
+                    During our visit, I learned that PLDT’s services go beyond telecommunications as they support hospitals, commercial establishments, and utility companies through strong partnerships across different sectors. 
+                    This experience helped me realize how PLDT contributes to stable communication and supports critical industries that are essential to everyday life.
+</p>
+            </div>
+            <div class="image-grid grid-2">
+                <div class="character-img">
+                    <img src="images/pldt1.jpg" class="zoom-img" onclick="openModal(this)" alt="PLDT Photo 1">
+                </div>
+                <div class="character-img">
+                    <img src="images/pldt2.jpg" class="zoom-img" onclick="openModal(this)" alt="PLDT Photo 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VITRO -->
+    <section id="vitro" class="content-section">
+        <div class="section-header"><h2>VITRO</h2></div>
+        <div class="content-wrapper">
+            <div class="image-grid grid-2">
+                <div class="character-img">
+                    <img src="images/vitro1.jpg" class="zoom-img" onclick="openModal(this)" alt="VITRO Photo 1">
+                </div>
+                <div class="character-img">
+                    <img src="images/vitro2.jpg" class="zoom-img" onclick="openModal(this)" alt="VITRO Photo 2">
+                </div>
+            </div>
+            <div class="text-content">
+                <p>VITRO, Inc. is the data center subsidiary of PLDT Inc. that operates advanced data centers across the Philippines, including the first data center in Mindanao located in Davao City. 
+                    During our visit, I observed that VITRO provides services such as internet access, data center interconnection, and disaster recovery seats, all supported by a highly secured and well-maintained facility. 
+                    I learned that VITRO focuses on strong infrastructure and multi-layered data protection to ensure continuous operations and keep client data safe even during emergencies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- JAIROSOFT -->
+    <section id="jairosoft" class="content-section">
+        <div class="section-header"><h2>JAIROSOFT</h2></div>
+        <div class="content-wrapper">
+            <div class="image-grid grid-3">
+                <div class="character-img">
+                    <img src="images/jairo1.jpg" class="zoom-img" onclick="openModal(this)" alt="JAIROSOFT Photo 1">
+                </div>
+                <div class="character-img">
+                    <img src="images/jairo2.jpg" class="zoom-img" onclick="openModal(this)" alt="JAIROSOFT Photo 2">
+                </div>
+                <div class="character-img">
+                    <img src="images/jairo3.jpg" class="zoom-img" onclick="openModal(this)" alt="JAIROSOFT Photo 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 911 -->
+    <section id="911" class="content-section">
+        <div class="section-header"><h2>911</h2></div>
+        <div class="content-wrapper">
+            <div class="horizontal-scroll" id="scroll911">
+                <div class="character-img">
+                    <img src="images/d1.jpg" class="zoom-img" onclick="openModal(this)" alt="911 Photo 1">
+                </div>
+                <div class="character-img">
+                    <img src="images/d2.jpg" class="zoom-img" onclick="openModal(this)" alt="911 Photo 2">
+                </div>
+                <div class="character-img">
+                    <img src="images/d3.jpg" class="zoom-img" onclick="openModal(this)" alt="911 Photo 3">
+                </div>
+                <div class="character-img">
+                    <img src="images/d4.jpg" class="zoom-img" onclick="openModal(this)" alt="911 Photo 4">
+                </div>
+            </div>
+
+            <div class="text-content">
+                <p>The Davao City Central Communications and Emergency Response Center, also known as Central 911, provides primary emergency services such as medical assistance, search and rescue, fire auxiliary, and K-9 operations for the residents of Davao City.
+                     During our visit, I observed their advanced monitoring systems, including CCTV, eagle-eye surveillance, river and weather monitoring, and well-organized command centers that operate 24/7.
+                     I learned that by using both international and local monitoring systems, Central 911 is able to detect disasters early and reduce their impact through effective early warning, evacuation, and emergency response measures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEARNINGS -->
+    <section id="learnings" class="content-section">
+        <div class="section-header"><h2>Learnings</h2></div>
+        <div class="content-wrapper">
+            <div class="image-grid grid-4">
+                <div class="character-img">
+                    <img src="images/learnsvitro.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/learnspldt.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/learnsjairo.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/learns911.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/cert.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/hallway.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/survey.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+                <div class="character-img">
+                    <img src="images/sheet.jpg" class="zoom-img" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMAGE MODAL -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImg" class="modal-content">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
